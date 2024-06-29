@@ -204,3 +204,44 @@ body {
     text-align: justify;
     /* font-size: 18px; */
 }
+
+.avaliacao {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.comentario {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.comentario img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.comentario p {
+    font-size: 14px;
+}
+
+.comentario .nome {
+    font-size: 12px;
+    font-style: italic;
+    color: #666;
+}
