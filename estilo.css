@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F5FBFA;
+    font-family: Arial;
+    /* background-color: red; */
+}
+
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    /* background-color: #242c3c; */
+    background-color: #1D2B53;
+    justify-content: center;
+    align-items: center;
+    /*position: fixed;*/
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 5%;
+}
+
+.logo h1 {
+    color: #F5FBFA;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.menu {
+    flex: 65%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+#botao {
+    background: #FFC900;
+    padding: 10px 25px;
+    color: #F5FBFA;
+    border-radius: 5px;
+    /*margin-right: 10%;
+    margin-left: 5%;*/
+}
+
+.logoimg img {
+    width: 65px;
+    margin-left: 40px;
+}
+
+#header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 10%;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.tituloprincipal {
+    font-size: 25px;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#paragrafo-header {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.img-headline {
+    margin-right: 5%;
+    margin-left: 5%;
+    flex: 40%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background: #FFC900;
+    padding: 10px 25px;
+    color: #f5fbfa;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.caixa {
+    width: 100%;
+    height: 400px;
+    background-color: #1D2B53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.foto-esquerda, .foto-direita {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.paragrafo-caixa {
+    color: #F5FBFA;
+    font-size: 1.4em;
+    text-align: justify;
+    margin: 35px;
+}
+
+#bloco {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.paragrafo-bloco {
+    font-size: 23px;
+    text-align: justify;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.box {
+    /* flex-basis: calc(33.33% - 10px); */
+    margin-left: 10px;
+}
+
+.box h3 {
+    margin-left: 8px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #FFC900;
+    border-radius: 0 0 10px 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #F5FBFA;
+}
+
+.imgbox {
+    max-width: 100%;
+    border: 2px solid #1D2B53;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bloco2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.img-container2 {
+    margin: 10px;
+    /* box-shadow: 0 0 10px rgb(0, 0, 0); */
+}
+
+.card {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 25px;
+    /* border: 1px solid #1D2B53; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 15px #FFC900; */
+    /* background-color: #1D2B53; */
+    color: #000
+}
+
+.card-text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.paragrafo-card {
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgcard {
+    width: 300px;
+}
+
+footer {
+    background-color: #1D2B53;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: 120px;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infosrodape {
+    margin-left: 25%;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.links-direita {
+    margin-top: 70px;
+}
+
+.links-direita a {
+    color: white;
+    text-decoration: underline;
+    margin-left: 20px;
+}
